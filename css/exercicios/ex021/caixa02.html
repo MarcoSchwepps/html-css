@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <link rel="shortcut icon" href="../../html/desafios/desafio_imagem/favicon.ico">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0px;
+        }
+        
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(161, 161, 161);
+            padding: 3px;
+            box-shadow: 1px 1px 1px black ;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color:  white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: lightcyan;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article {
+            background-color: rgb(73, 73, 73);
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: azure;
+        }
+        
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            background-color: white;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            margin: 10px;        
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Políticas Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta sit temporibus quo quam fugit rem cupiditate non nisi, 
+                    vero dolorum aspernatur sed recusandae perferendis ullam iste! Ab doloremque quis voluptatibus?</p>
+                <aside>
+                    <p>Artigo escrito por José</p>
+                </aside>                
+                </article>  
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoEmVideo</p>
+    </footer>
+    <div id="bola"></div>
+
+
+
+
+</body>
+</html>
